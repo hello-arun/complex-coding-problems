@@ -16,7 +16,7 @@ def get_total_paths(n: int, m: int, path):
     return answer
 
 
-N=3
+N=6
 M=3
 print(f"Calculating for {N}x{M} matrix")
 paths = []
