@@ -1,8 +1,9 @@
-import numpy as np
-from numpy import fft 
+from numpy import fft
+fft_a = fft.fft([9, -10, 7, 6, 0, 0, 0, 0])
+fft_b = fft.fft([-5, 4, 0, -2, 0, 0, 0, 0])
 
-fft_a=fft.fft([1,2,3,4])
-ifft_a=fft.ifft(fft_a)
+mul = [a*b for a, b in zip(fft_a, fft_b)]
 
-print(fft_a)
-print(ifft_a)
+ifft_ab = fft.ifft(mul)
+
+print(ifft_ab)
