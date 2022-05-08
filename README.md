@@ -17,6 +17,6 @@ conda env create --prefix ./env --file environment.yml --force
 If new modules are added or removed then
 
 ```bash
-conda activate ./env
-conda env update --file environment.yml --prune
+conda deactivate
+mamba env update --prefix ./env --file environment.yml --prune
 ```

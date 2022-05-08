@@ -5,6 +5,7 @@
 		}
 	],
 	"settings": {
-		"python.defaultInterpreterPath": "./env/python"
+		"python.defaultInterpreterPath": "./env/python",
+		"jupyter.jupyterServerType": "local"
 	}
 }
