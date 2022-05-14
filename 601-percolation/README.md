@@ -1,5 +1,7 @@
 # Percolation Problem
 
+![Percolation](./anim.gif)
+
 ## Problem
 
 We have a NxM grid. Each grid element element contains either 1 or 0. 0 denotes a closed path and 1 denotes an open one. The given grid
